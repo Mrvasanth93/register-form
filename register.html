@@ -1,1 +1,60 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+        <div id="container"  > 
+            <form  action="">
+                <h1 style="margin-left: 20px;">Registration Form</h1>
+                <label for="first_name"> <b>First Name     :</b> </label>
+                <input style="margin-left: 45px;" id="name" placeholder="Enter Your First Name"><br>
+                <label for="last_name"> <b>Last Name :</b> </label> 
+                <input style="margin-top: 10px; margin-left: 47px;" type="text" id="last_name" placeholder= "Enter Your Last Name"> <br>
+                <label for="Phone_number"> <b>Phone Number :</b> </label>
+                <input style="margin-top: 10px; margin-left: 18px;" type="text" placeholder="Enter Your Phone Number" id="Phone_number"> <br>
+                <label for="Email"><b>Email :</b></label>
+                <input style="margin-top: 10px; margin-left:81px;" type="email" placeholder="Enter Your Email id"> <br>
+                <label for="dob"><b>Date of birth :</b></label>
+                <input style="margin-top: 10px; margin-left: 33px; width: 173px;"  type="date"> <br>
+                <label for="Gender" ><b>Gender :</b></label>
+                <input style="margin-top: 10px; margin-left: 70px;" type="radio" id="Male" name="Gender" value="Male">
+                <label for="Male"><b>Male</b></label>
+                <input type="radio" id="Female" name="Gender" value="Female">
+                <label for="Female"><b>Female</b></label>
+                <input type="radio" id="Other" name="Gender" value="Other">
+                <label for="Other"><b>Other</b></label> <br>
+                <label for="Area"><b>Course applied for:</b></label> 
+                <select style="margin-top: 10px; margin-bottom: 10px;  width: 180px;" name="Area" id="Area">
+                    <Option value="Not-Select">Select</Option>
+                    <Option value="MECHANICAL">BE Mech</Option>
+                    <Option value="CSE">BE CSC</Option>
+                    <Option value="ECE">BE ECE</Option>
+                    <Option value="AGRI">BE AGRI</Option>
+                    <OPtion value="EEE">BE EEE</OPtion>
+                    <option value="CIVIL">BE CIVIL</option>
+                </select> <br>
+                <label for="Addres"><b>Addres:</b></label>
+                <address style="margin-left: 140px;">
+                    <input style="margin-top: 10px;" type="text" placeholder="Street Addres"> <br>
+                    <input style="margin-top: 10px;" type="text" placeholder="City"> <br>
+                    <input style="margin-top: 10px;" type="text" placeholder="State"> <br> 
+                    <input style="margin-top: 10px;" type="text" placeholder="Zip Code"> <br>
+                </address>
+                <label for="Message"> <b>Message :</b> </label> 
+                <textarea style="margin-top: 10px; margin-left: 62px;" name="Message" id="Message" cols="22" rows="5"></textarea> <br>
+                <label for="files"><b>Upload A Files :</b></label>
+                <input style="margin-left: 19px; margin-top: 15px;" type="file" id="files"><br>
+                <input style="margin-top: 20px; margin-left: 25px;" id="t&c" type="checkbox">
+                <label style="font-weight: bolder; " for="t&c">I agree the terms and cconditions</label><br>
+                <button style="margin-top: 10px;" type="button"><a style="text-decoration: none;" href="./home.html">Back To Website</a></button>
+                <button style="width: 100px;"   type="submit">Submit</button>
+                <button style="width: 100px;"  type="reset">Reset</button>
+                </form>
+        </div>
+</body>
+</html>
